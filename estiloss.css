@@ -1,0 +1,144 @@
+body{
+    background-repeat: no-repeat;
+}
+
+#MI{
+  
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 90px;
+    margin-top: 10px;
+  }
+  .contraseña{
+  display: grid;
+  grid-template-columns: 200px 100px 100px ;
+  grid-template-rows: 22px 22px 22px;
+  justify-content: center;
+  gap: 15px;
+  height: 40px;
+  
+  }
+  #registro{
+  display: grid;
+  grid-template-columns: 200px 250px ;
+  grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px   ;
+  justify-content: center;
+  grid-gap: 10px;
+  }
+  
+  .uno{
+      font-size: 19px;
+      font-style: italic;
+      color: #ffffff;
+  }
+  .nombre{
+      background-color: #ffffff;
+      color: black;
+      border-radius: 10px;
+  }
+  .dos{
+      font-size: 19px;
+      font-style: italic;
+      color: #ffffff;
+  }
+  .apellido{
+      background-color: #ffffff;
+      color: black;
+      border-radius: 10px;
+      
+  }
+  .tres{
+      font-size: 19px;
+      font-style: italic;
+      color: #ffffff;
+  }
+  .pais{
+      font-style: italic;
+     
+  }
+  .cuatro{
+      font-size: 19px;
+      font-style: italic;
+      color: #ffffff;
+  }
+  .departamento{
+      font-style: italic;
+  
+  }
+  .cinco{
+      font-size: 19px;
+      font-style: italic;
+      color: #ffffff;
+  }
+  .ciudad{
+      font-style: italic;
+      
+  }
+  .seis{
+      font-size: 19px;
+      font-style: italic;
+      color: #ffffff;
+  }
+  .email{
+      background-color: #ffffff;
+      color: black;
+      border-radius: 10px;
+  }
+  .siete{
+      font-size: 19px;
+      font-style: italic;
+      color: #ffffff;
+  }
+  .telefono{
+      background-color: #ffffff;
+      color: black;
+      border-radius: 10px;
+  }
+  .ocho{
+      font-size: 19px;
+      font-style: italic;
+      color: #ffffff;
+  }   
+  .direccion{
+      background-color: #ffffff;
+      color: black;
+      border-radius: 10px;
+  }
+  
+  
+  .documento{
+      display: grid;
+      grid-template-columns: 200px ;
+      grid-template-rows: 30px  ;
+      justify-content: center;
+      grid-gap: 10px;
+      
+      
+  }
+  .botones{
+      display: grid;
+      grid-template-columns: 100px 100px ;
+      justify-content: flex-end;
+     
+  }
+  .CCTI{
+      display: grid;
+      grid-template-columns: 200px ;
+      grid-template-columns: 100px 200px ;
+      justify-content: center;
+      grid-gap: 5px;
+      color: #ffffff;
+      font-weight:bold;
+  }
+      
+  #contra{
+      background-color: #1877f2;
+      border-radius: 10px;
+      font-size: 15px;
+      line-height: 25px;
+      width: 100px;
+      color: blanchedalmond;
+      font-weight: bold;
+  }

@@ -1,0 +1,60 @@
+table,td{
+    border-style: solid;
+    border-collapse: collapse;
+}
+.no{
+    display: grid;
+    justify-content: center;
+    color: aliceblue;
+    
+}
+.botonesS{
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    justify-content: flex-end;
+}
+#contraa{
+background-color: #1877f2;
+border-radius: 10px;
+font-size: 15px;
+line-height: 25px;
+width: 100px;
+color: blanchedalmond;
+font-weight: bold;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: outset 1px #c2c2c2;
+    padding-bottom: 10px;
+    margin: auto;
+    background:#1877f2 ;
+  }
+  input[type=textfield] {
+      width: 75%;
+      padding: 16px 32px;
+      font-size: 16px;
+      margin: 8px 0;
+      border: 1px solid silver;
+      border-radius: 1px;
+      text-align: left;
+      color: #333;
+      background: #ccc;
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      font-size: 16px;
+      min-width: 21%;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 80px;
+  }
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #333;
+  }
